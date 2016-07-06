@@ -1,0 +1,8 @@
+{
+  "resolution": "main",
+  "tree": {
+    "src": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/677ea8dbd9aefa9fb94e3a3522c4ccebc9926299/webrtc/RTCPeerConnection.d.ts",
+    "raw": "registry:dt/webrtc/rtcpeerconnection#0.0.0+20160622071351",
+    "typings": "https://raw.githubusercontent.com/DefinitelyTyped/DefinitelyTyped/677ea8dbd9aefa9fb94e3a3522c4ccebc9926299/webrtc/RTCPeerConnection.d.ts"
+  }
+}

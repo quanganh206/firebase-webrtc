@@ -1,0 +1,30 @@
+<!--
+  Generated template for the ChatPage page.
+
+  See http://ionicframework.com/docs/v2/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-navbar *navbar>
+    <button menuToggle>
+        <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Chat</ion-title>
+</ion-navbar>
+
+<ion-content padding has-header>
+    <ion-card>
+        <ion-card-content>
+            <video id="my-video" muted="true" autoplay="autoplay" webkit-playsinline="webkit-playsinline" style="width: 100%;"></video>
+            <video id="other-video" autoplay style="width: 100%;"></video>
+        </ion-card-content>
+    </ion-card>
+
+    <ion-list>
+        <ion-item (click)="chooseOtherUser()">
+            <ion-label>{{getOtherUserName()}}</ion-label>
+        </ion-item>
+    </ion-list>
+
+    <button block (click)="startCall()">Call</button>
+    <button block (click)="stopCall()">Drop</button>
+</ion-content>
