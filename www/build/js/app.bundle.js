@@ -80,7 +80,7 @@ var MyApp = (function () {
             templateUrl: 'build/app.html',
             providers: [
                 angularfire2_1.FIREBASE_PROVIDERS,
-                angularfire2_1.defaultFirebase('https://ng2-webrtc.firebaseio.com/'),
+                angularfire2_1.defaultFirebase('https://ng2-webrtc-demo.firebaseio.com/'),
                 angularfire2_1.firebaseAuthConfig({
                     provider: angularfire2_1.AuthProviders.Google,
                     method: angularfire2_1.AuthMethods.Popup,
