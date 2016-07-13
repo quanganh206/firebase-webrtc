@@ -1,6 +1,6 @@
 # firebase-webrtc
 
-This starter project using:
+## This starter project using:
 1. Ionic2
 2. AngularFire2
 3. Firebase3 
