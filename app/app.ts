@@ -4,7 +4,6 @@ import {StatusBar} from 'ionic-native';
 import {HomePage} from './pages/home/home';
 import {TabsPage} from './pages/tabs/tabs';
 import {FIREBASE_PROVIDERS, defaultFirebase, firebaseAuthConfig, AuthProviders, AuthMethods, FirebaseListObservable} from 'angularfire2';
-
 import {UserService} from './common/user.service';
 import {AuthService, User} from './common/auth.service';
 import {WebRTCConfig} from './common/webrtc.config';
@@ -55,7 +54,7 @@ class MyApp {
                         userService.create(user.id, user.displayName).then(() => {
                             this._afterLogin(webRTC, user.id);
                         }, (error) => {
-                            console.log('Error', error);
+                            console.log('Error: ', error);
                         });
                     }
                 });
