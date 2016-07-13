@@ -15,6 +15,8 @@ to make a demo of WebRTC.
 2. npm i
 3. typings i
 
+P/s: Remember enable popup in demo.
+
 ## Enviroment
 ```
 Cordova CLI: 6.2.0
