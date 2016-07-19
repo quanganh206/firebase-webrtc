@@ -15,6 +15,13 @@ import {WebRTCService} from './common/webrtc.service';
   providers: [
     FIREBASE_PROVIDERS,
         defaultFirebase('https://ng2-webrtc-demo.firebaseio.com/'),
+        // Initialize Firebase app  
+        /*defaultFirebase({
+            apiKey: 'AIzaSyC8z3wteLPSF9MtSsI_5tWiy-dnaeyR4So',
+            authDomain: 'ng2-webrtc-38018.firebaseapp.com',
+            databaseURL: 'https://ng2-webrtc-38018.firebaseio.com',
+            storageBucket: 'ng2-webrtc-38018.appspot.com',
+        }),*/
         firebaseAuthConfig({
             provider: AuthProviders.Google,
             method: AuthMethods.Popup,

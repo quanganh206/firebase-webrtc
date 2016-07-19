@@ -18,7 +18,7 @@ export class UserService {
     }
 
     exists(userId: string): Promise<boolean> {
-        let usersRef: Firebase = this.ref.child(UserService.USERS);
+        let usersRef: any = this.ref.child(UserService.USERS);
         return new Promise<boolean>((resolve, fault) => {
             usersRef.child(userId).once('value', (snapshot: FirebaseDataSnapshot) => {
                 let exists:boolean = (snapshot.val() !== null);
@@ -29,7 +29,7 @@ export class UserService {
 
     create(userId: string, userName: string): Promise<void> {
         // Get reference on 'Users'
-        let userRef: Firebase = this.ref.child(UserService.USERS + '/' + userId);
+        let userRef: any = this.ref.child(UserService.USERS + '/' + userId);
         // Set username
         return userRef.set(userName);
     }
@@ -45,7 +45,7 @@ export class UserService {
 
     remove(userId: string): Promise<void> {
         // Get a reference on User
-        let userRef: Firebase = this.ref.child(UserService.USERS + '/' + userId);
+        let userRef: any = this.ref.child(UserService.USERS + '/' + userId);
         // Remove it in Firebase
         return userRef.remove();
     }
