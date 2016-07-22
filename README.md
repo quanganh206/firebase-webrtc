@@ -8,7 +8,7 @@ to make a demo of WebRTC.
 
 [![Donate](https://www.paypalobjects.com/en_US/i/btn/btn_donate_LG.gif)](https://www.paypal.com/cgi-bin/webscr?cmd=_donations&business=quanganh%40aiti%2ecom%2evn&lc=VN&item_name=Ionic2%20Calendar&item_number=ionic2calendar&no_note=0&currency_code=USD&bn=PP%2dDonationsBF%3abtn_donateCC_LG%2egif%3aNonHostedGuest)
 
-<img src="http://imgur.com/a/riztk" align="left" width="20%"/>
+<img src="http://i1320.photobucket.com/albums/u521/quanganh206/Screen%20Shot%202016-07-13%20at%209.32.43%20AM_zpsx3b42uok.png" align="left" width="20%"/>
 
 # Install
 1. git clone https://github.com/quanganh206/firebase-webrtc
